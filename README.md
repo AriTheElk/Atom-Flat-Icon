@@ -1,5 +1,8 @@
 # Flat icon for Atom.io Editor
-![Atom Icon](atom_png/256x256.png) ![File Icon](file_png/256x256.png)
+![Atom Icon](atom_light/atom_png/256x256.png)
+![Atom Icon](atom_dark/atom_png/256x256.png)
+![Atom Icon](atom_colored/atom_png/256x256.png)
+ ![File Icon](file_png/256x256.png)
 
 ## ... why?
 I can't be the only one turned off by the atrocious Atom.io icon that sat on my OS X dock alongside some of the beautiful icons of 10.10 (Yosemite). So I decided to try my hand at creating a suitable replacement icon that went along with the rest of my OS. Although it was originally made for Yosemite, it can be used on any OS as a nice replacement of the default green icon.
@@ -8,7 +11,7 @@ I can't be the only one turned off by the atrocious Atom.io icon that sat on my 
 ### OS X
 1. Right click on Atom.app and hit "Show Package Contents"
 2. Go into Contents/Resources
-3. Drag the `atom.icns` and `file.icns` into the Resources folder (hit yes to replace)
+3. Drag the `atom.icns` from either the light, dark, or colored folder and the `file.icns` into the Resources folder (hit yes to replace)
 4. You will have to log out and back in to see the changes. If the changes don't show up after a log-in, hold ⌘ and click the Atom icon in your dock.
 
 ### Windows

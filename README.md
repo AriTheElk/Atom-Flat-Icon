@@ -9,10 +9,18 @@ I can't be the only one turned off by the atrocious Atom.io icon that sat on my 
 
 ## Installation
 ### OS X
-1. Right click on Atom.app and hit "Show Package Contents"
-2. Go into Contents/Resources
-3. Drag the `atom.icns` from either the light, dark, or colored folder and the `file.icns` into the Resources folder (hit yes to replace)
-4. You will have to log out and back in to see the changes. If the changes don't show up after a log-in, hold ⌘ and click the Atom icon in your dock.
+Open terminal and enter the below command for the desired icon
+#### Light
+    wget -O /Applications/Atom.app/Contents/Resources/atom.icns https://raw.github.com/iGARET/Atom-Flat-Icon/master/atom_light/atom.icns
+#### Dark
+    wget -O /Applications/Atom.app/Contents/Resources/atom.icns https://raw.github.com/iGARET/Atom-Flat-Icon/master/atom_dark/atom.icns
+#### Colored
+    wget -O /Applications/Atom.app/Contents/Resources/atom.icns https://raw.github.com/iGARET/Atom-Flat-Icon/master/atom_colored/atom.icns
+#### File Icon
+    wget -O /Applications/Atom.app/Contents/Resources/file.icns https://raw.github.com/iGARET/Atom-Flat-Icon/master/file.icns
+
+If you do not have wget install, you can install it by running `brew install wget`. If you don't have brew installed, you really should.
+
 
 ### Windows
 I don't use windows, because it doesn't fit with my UNIX-powered development workflow. But I found a [tutorial here](http://www.wikihow.com/Change-the-Icon-for-an-Exe-File) that looks like it works (albeit a longer solution than on Mac, but what do you expect from windows?)
